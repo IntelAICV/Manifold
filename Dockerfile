@@ -1,6 +1,4 @@
 FROM ubuntu:20.04
-# PUSHMETO: ubit-artifactory-il.intel.com:6556/xverse/manifold:latest-ubuntu20.04
-
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 ENV http_proxy http://proxy-iil.intel.com:911
